@@ -23,7 +23,7 @@
     "isLogin": {
       "type": "identifier",
       "control": "exists",
-      "selector": "td"
+      "selector": "input[name='username']"
     }
   },
   "id": "login",
