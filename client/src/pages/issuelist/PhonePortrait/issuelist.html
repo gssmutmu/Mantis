@@ -1,6 +1,20 @@
 <ion-content data-comp-id="content.1">
     <ion-row data-comp-id="row.1">
-        <ion-col data-comp-id="column.1"></ion-col>
-        <ion-col data-comp-id="column.2"></ion-col>
+        <ion-col data-comp-id="column.1">
+            <ion-list data-comp-id="list.1">
+                <ion-item data-comp-id="input.1">
+                    <ion-label>Id</ion-label>
+                    <ion-input [(ngModel)]="data.list.id" placeholder="Type here..." type="text"></ion-input>
+                </ion-item>
+            </ion-list>
+        </ion-col>
+        <ion-col data-comp-id="column.2">
+            <ion-list data-comp-id="list.2">
+                <ion-item data-comp-id="input.2">
+                    <ion-label>Desc</ion-label>
+                    <ion-input [(ngModel)]="data.list.desc" placeholder="Type here..." type="text"></ion-input>
+                </ion-item>
+            </ion-list>
+        </ion-col>
     </ion-row>
 </ion-content>

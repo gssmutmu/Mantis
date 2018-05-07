@@ -28,7 +28,19 @@
   "issuelist": {
     "type": "object",
     "comment": "Blank",
-    "properties": {},
+    "properties": {
+      "list": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "desc": {
+            "type": "string"
+          }
+        }
+      }
+    },
     "id": "issuelist",
     "sourcePath": "issuelist"
   }
