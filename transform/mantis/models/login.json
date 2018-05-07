@@ -19,8 +19,20 @@
     },
     "errorMessage": {
       "type": "string"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "control": "exists",
+      "selector": "td"
     }
   },
   "id": "login",
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLogin"
+      ],
+      "event": "login"
+    }
+  ]
 }
