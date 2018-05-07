@@ -2,7 +2,8 @@
   "menu": {
     "type": "object",
     "properties": {},
-    "id": "menu"
+    "id": "menu",
+    "sourcePath": "menu"
   },
   "login": {
     "type": "object",
@@ -21,6 +22,7 @@
         "type": "string"
       }
     },
-    "id": "login"
+    "id": "login",
+    "sourcePath": "login"
   }
 }
