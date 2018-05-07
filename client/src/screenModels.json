@@ -24,5 +24,11 @@
     },
     "id": "login",
     "sourcePath": "login"
+  },
+  "issuelist": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {},
+    "id": "issuelist"
   }
 }

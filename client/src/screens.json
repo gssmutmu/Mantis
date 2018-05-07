@@ -7,6 +7,12 @@
       "name": "login",
       "sourceScreenId": "blank",
       "sourceAppId": "default"
+    },
+    {
+      "id": "issuelist",
+      "name": "issueList",
+      "sourceScreenId": "blank",
+      "sourceAppId": "default"
     }
   ],
   "startScreen": "login"
