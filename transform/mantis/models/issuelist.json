@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "comment": "Blank",
+  "properties": {
+    "issuelist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "id": "issuelist",
+  "connect": []
+}

@@ -37,6 +37,7 @@
         }
       }
     },
-    "id": "issuelist"
+    "id": "issuelist",
+    "sourcePath": "issuelist"
   }
 }
