@@ -4,4 +4,5 @@ require('./client');
 require('./transform/mantis/login');
 require('./transform/mantis/issuelist');
 require('./transform/mantis/viewlist');
+require('./transform/mantis/assignedtome');
 session.start();

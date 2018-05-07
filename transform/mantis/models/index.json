@@ -1,5 +1,6 @@
 [
   "menu.json",
   "login.json",
-  "issuelist.json"
+  "issuelist.json",
+  "assignedtome.json"
 ]
