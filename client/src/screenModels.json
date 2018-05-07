@@ -28,7 +28,15 @@
   "issuelist": {
     "type": "object",
     "comment": "Blank",
-    "properties": {},
+    "properties": {
+      "issuelist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    },
     "id": "issuelist"
   }
 }
