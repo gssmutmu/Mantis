@@ -3,7 +3,7 @@
   "properties": {
     "isassigned": {
       "type": "identifier",
-      "control": "property.innerText",
+      "control": "exists",
       "selector": "a[href='view_all_set.php?type=1&temporary=y&handler_id=1&hide_status=80'][class='subtle']"
     },
     "clickassigned": {
