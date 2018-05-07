@@ -5,5 +5,15 @@
   "previewToken": "44a454df",
   "clientVersion": "6.0.22",
   "theme": "Anchor",
-  "creatorId": "gssmutmu"
+  "creatorId": "gssmutmu",
+  "id": "Mantis",
+  "isBuiltInTemplate": false,
+  "screensCount": 2,
+  "isVersioned": true,
+  "pathToRepo": "c:\\ProgramData\\SmartUX Studio\\users\\gssmutmu\\Mantis",
+  "githubRepo": "https://github.com/gssmutmu/Mantis",
+  "creatorName": "Muthuselvan Murugan",
+  "explorations": [
+    "mantis"
+  ]
 }
