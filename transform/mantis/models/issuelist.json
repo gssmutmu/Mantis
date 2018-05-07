@@ -7,19 +7,22 @@
         "id": {
           "type": "string",
           "control": "property.innerText",
-          "selector": "a[href='/mantisbt/view.php?id=1185'][title='[assigned] RS8']"
+          "selector": "td",
+          "selectIndex": 3
         },
         "desc": {
           "type": "string",
           "control": "property.innerText",
-          "selector": "span[class='small']"
+          "selector": "td",
+          "selectIndex": 6
         }
-      }
+      },
+      "selector": "td"
     },
     "islist": {
       "type": "identifier",
       "control": "exists",
-      "selector": "a[href='view_all_set.php?type=1&temporary=y&handler_id=1&hide_status=80'][class='subtle']"
+      "selector": "span[class='floatleft']"
     }
   },
   "connect": [
