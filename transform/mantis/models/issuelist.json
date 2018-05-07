@@ -25,8 +25,7 @@
   "connect": [
     {
       "match": [
-        "islist",
-        "isLogin"
+        "islist"
       ],
       "event": "issuelist"
     }
