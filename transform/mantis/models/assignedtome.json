@@ -14,7 +14,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isassigned"
+      ],
       "event": "clickassigned"
     }
   ]
