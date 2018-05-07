@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "list": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "control": "property.innerText",
+          "selector": "a[href='/mantisbt/view.php?id=1185'][title='[assigned] RS8']"
+        },
+        "desc": {
+          "type": "string",
+          "control": "property.innerText",
+          "selector": "span[class='small']"
+        }
+      }
+    },
+    "islist": {
+      "type": "identifier",
+      "control": "exists",
+      "selector": "a[href='view_all_set.php?type=1&temporary=y&handler_id=1&hide_status=80'][class='subtle']"
+    }
+  },
+  "connect": [
+    {
+      "match": [
+        "islist",
+        "isLogin"
+      ],
+      "event": "issuelist"
+    }
+  ]
+}
